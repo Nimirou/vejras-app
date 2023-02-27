@@ -3,7 +3,7 @@ import Image from "next/image";
 function MainBanner() {
   return (
     <div className="flex sm:flex-row flex-col max-w-7xl xl:mx-auto mt-0 sm:mt-60">
-      <div className="basis-1/3 sm:w-10 self-center">
+      <div className="basis-1/3 self-center ">
         <Image
           className="object-contain"
           src="/Logo2.png"
