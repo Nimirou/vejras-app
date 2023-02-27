@@ -5,6 +5,7 @@ import Slogan from "../components/Slogan";
 import { Canvas } from "@react-three/fiber";
 import Object from "../components/Object";
 import { OrbitControls } from "@react-three/drei";
+import SmallBanner from "../components/SmallBanner";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
             <Object />
           </Canvas>
         </div>
+        <SmallBanner></SmallBanner>
       </main>
     </div>
   );
