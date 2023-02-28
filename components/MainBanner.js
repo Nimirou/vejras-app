@@ -2,8 +2,8 @@ import Image from "next/image";
 
 function MainBanner() {
   return (
-    <div className="flex sm:flex-row flex-col max-w-7xl xl:mx-auto mt-0 sm:mt-60">
-      <div className="basis-1/3 self-center ">
+    <div className="flex sm:flex-row flex-col h-screen pt-32 sm:pt-0">
+      <div className=" self-center ">
         <Image
           className="object-contain"
           src="/Logo2.png"
@@ -11,7 +11,7 @@ function MainBanner() {
           height={350}
         />
       </div>
-      <div className="flex flex-col basis-2/3 sm:pl-28 h-24  mt-4">
+      <div className="flex flex-col basis-2/3 sm:pl-28 h-30  mt-4 self-center ">
         <div className="font-bold text-[35px] text-center sm:text-left">
           CNC SOUSTRUŽENÍ A KOVOOBRÁBĚNÍ
         </div>

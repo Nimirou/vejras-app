@@ -6,33 +6,18 @@ import { Canvas } from "@react-three/fiber";
 import Object from "../components/Object";
 import { OrbitControls } from "@react-three/drei";
 import SmallBanner from "../components/SmallBanner";
+import BackgroundWaves from "../components/BackgroundWaves";
 
 export default function Home() {
   return (
-    <div className="">
-      <Head>
-        <title>RVT Kovovýroba</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <div className="max-w-7xl ml-auto mr-auto">
       <Header />
       <main>
         <div className="relative">
+          <BackgroundWaves></BackgroundWaves>
           <Slogan />
         </div>
-
         <MainBanner />
-        <div className="h-[28rem] mt-10">
-          <Canvas>
-            <OrbitControls
-              enableZoom={false}
-              enableRotate={false}
-              enablePan={false}
-            />
-            <ambientLight intensity={(0, 5)} />
-            <pointLight position={[-2, -3, 2]} intensity={1} />
-            <Object />
-          </Canvas>
-        </div>
         <SmallBanner></SmallBanner>
       </main>
     </div>

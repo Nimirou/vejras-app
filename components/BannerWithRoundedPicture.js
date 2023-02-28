@@ -12,7 +12,7 @@ function BannerWithRoundedPicture(props) {
           width={200}
         />
       </div>
-      <div className="relative w-96 h-40 drop-shadow-xl rounded-3xl bg-[#100d0d]">
+      <div className="relative w-96 h-40 drop-shadow-xl rounded-3xl bg-[#201E1E]">
         <div className="text-center pt-5 font-bold text-3xl">
           {props.MainTitle}
         </div>

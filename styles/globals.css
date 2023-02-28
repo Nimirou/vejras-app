@@ -4,6 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-[url('/poz.svg')] text-gray-300;
+    @apply bg-[#323232] text-gray-300;
+    height: 100%;
   }
 }
