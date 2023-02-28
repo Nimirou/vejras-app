@@ -1,7 +1,7 @@
 import BannerWithRoundedPicture from "./BannerWithRoundedPicture";
 function SmallBanner() {
   return (
-    <div className="flex flex-col sm:flex-row m-5 justify-between h-auto sm:items-baseline max-w-7xl xl:mx-auto">
+    <div className="flex flex-wrap flex-col sm:flex-row m-5 justify-around h-auto sm:items-baseline max-w-7xl xl:mx-auto">
       <BannerWithRoundedPicture
         MainTitle="JEDNODUŠE"
         MainText="Způsoby obrábění máme individuálně připravené a promyšlené."
