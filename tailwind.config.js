@@ -6,7 +6,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "main-green": "#31B604",
+        "main-green": "#b5d335",
+      },
+      keyframes: {
+        wave: {
+          "0%": { transform: "scale(1.1)" },
+        },
+      },
+      animation: {
+        "waving-hand": "wave 1s infinite",
       },
     },
   },

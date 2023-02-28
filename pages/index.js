@@ -10,7 +10,7 @@ import BackgroundWaves from "../components/BackgroundWaves";
 
 export default function Home() {
   return (
-    <div className="max-w-7xl ml-auto mr-auto">
+    <div className="max-w-7xl ml-auto mr-auto  ">
       <Header />
       <main className="flex sm:flex-row-reverse mt-5 w-full max-w-7xl xl:mx-auto ">
         <MainBanner />
