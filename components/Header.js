@@ -10,12 +10,14 @@ function Header() {
         <HeaderItem title="FOTOGALERIE" Icon={CameraIcon} />
         <HeaderItem title="KONTAKT" Icon={PhoneIcon} />
       </div>
-      <Image
-        className="object-contain self-center "
-        src="/logo.png"
-        width={250}
-        height={50}
-      />
+      <div className="sm:pl-5 self-center sm:self-auto">
+        <Image
+          className="object-contain self-center "
+          src="/logo.png"
+          width={370}
+          height={40}
+        />
+      </div>
     </header>
   );
 }
