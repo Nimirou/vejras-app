@@ -14,7 +14,7 @@ module.exports = {
         },
       },
       animation: {
-        "waving-hand": "wave 1s infinite",
+        "waving-hand": "wave 50s infinite",
       },
     },
   },
