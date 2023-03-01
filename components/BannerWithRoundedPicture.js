@@ -12,7 +12,7 @@ function BannerWithRoundedPicture(props) {
           width={200}
         />
       </div>
-      <div className=" group-hover:border-main-green group-hover:border-4 border-4 group-hover:animate-waving-hand border-transparent relative w-96 h-40 drop-shadow-xl rounded-3xl ml-auto mr-auto sm:ml-2 sm:mr-2  bg-[#201E1E]">
+      <div className=" group-hover:border-main-green group-hover:border-4 border-4 border-transparent relative sm:w-96 h-40 drop-shadow-xl rounded-3xl ml-auto mr-auto sm:ml-2 sm:mr-2  bg-[#201E1E]">
         <div className="text-center pt-5 font-bold text-3xl">
           {props.MainTitle}
         </div>
