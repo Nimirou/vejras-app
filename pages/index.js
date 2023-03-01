@@ -7,6 +7,7 @@ import Object from "../components/Object";
 import { OrbitControls } from "@react-three/drei";
 import SmallBanner from "../components/SmallBanner";
 import BackgroundWaves from "../components/BackgroundWaves";
+import InfoBanner from "../components/InfoBanner";
 
 export default function Home() {
   return (
@@ -14,12 +15,14 @@ export default function Home() {
       <Header />
       <main className="flex sm:flex-row-reverse mt-5 w-full max-w-7xl xl:mx-auto ">
         <MainBanner />
+
         {/* <div className="pointer-events-none relative">
           <BackgroundWaves></BackgroundWaves>
         </div>
         */}
       </main>
       <SmallBanner></SmallBanner>
+      <InfoBanner />
     </div>
   );
 }
