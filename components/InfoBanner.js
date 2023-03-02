@@ -6,9 +6,14 @@ function InfoBanner() {
       <div className="text-3xl font-bold pt-2">Děláme co nás baví</div>
       <div className="sm:pl-36 pt-3 sm:pr-36">
         Naše rodinná firma vznikla v březnu 2017, ale opíráme se o více jak
-        třicetiletou zkušenost ve výrobě. Zabýváme se výrobou přesných rotačních
-        dílců. Hlavní činností je zakázková výroba rotačních dílců, jak kusových
-        tak i sériových, z tyče i polotovaru.
+        třicetiletou zkušenost ve výrobě.
+      </div>
+      <div className="sm:pl-36 sm:pr-36">
+        Zabýváme se výrobou přesných rotačních dílců.
+      </div>
+      <div className="sm:pl-36 sm:pr-36">
+        Hlavní činností je zakázková výroba rotačních dílců, jak kusových tak i
+        sériových, z tyče i polotovaru.
       </div>
       <div className="p-5 text-l font-bold">
         Vyrábíme díly dle požadavků zákazníka do různých odvětví průmyslu.

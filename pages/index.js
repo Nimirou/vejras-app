@@ -8,6 +8,7 @@ import { OrbitControls } from "@react-three/drei";
 import SmallBanner from "../components/SmallBanner";
 import BackgroundWaves from "../components/BackgroundWaves";
 import InfoBanner from "../components/InfoBanner";
+import BannersWithIcons from "../components/BannersWithIcons";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       </main>
       <SmallBanner></SmallBanner>
       <InfoBanner />
+      <BannersWithIcons AvatarPicture="/Jednoduse.png"></BannersWithIcons>
     </div>
   );
 }
