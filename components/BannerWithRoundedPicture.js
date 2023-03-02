@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import ArrowCircleDownIcon from "@mui/icons-material/ArrowCircleDown";
+import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
 
 function BannerWithRoundedPicture(props) {
   return (
@@ -20,6 +21,7 @@ function BannerWithRoundedPicture(props) {
         <div className="text-center pt-3 text-l p-5 flex flex-col">
           {props.MainText}
           <ArrowCircleDownIcon className="self-center mt-3"></ArrowCircleDownIcon>
+          <ArrowCircleUpIcon className="self-center mt-3"></ArrowCircleUpIcon>
           <div className="text-center text-l mt-3 pl-5 pr-5 pb-5">
             {props.SecondText}
           </div>
