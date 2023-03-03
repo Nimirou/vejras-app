@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import ArrowCircleDownIcon from "@mui/icons-material/ArrowCircleDown";
 import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
 
 function BannerWithRoundedPicture(props) {
+  const [clicked, setClicked] = useState(false);
   return (
-    <div className="group">
+    <div className="group" onClick={() => setClicked(!clicked)}>
       <div className="-mb-16 text-center pt-8 ">
         <Image
           src={props.AvatarPicture}
@@ -20,9 +21,27 @@ function BannerWithRoundedPicture(props) {
         </div>
         <div className="text-center pt-3 text-l p-5 flex flex-col">
           {props.MainText}
-          <ArrowCircleDownIcon className="self-center mt-3"></ArrowCircleDownIcon>
-          <ArrowCircleUpIcon className="self-center mt-3"></ArrowCircleUpIcon>
-          <div className="text-center text-l mt-3 pl-5 pr-5 pb-5">
+          <ArrowCircleDownIcon
+            className={
+              clicked
+                ? "self-center mt-3 hidden"
+                : "self-center mt-3 hover:color-main-green"
+            }
+          ></ArrowCircleDownIcon>
+          <ArrowCircleUpIcon
+            className={
+              clicked
+                ? "self-center mt-3 hover:color-main-green"
+                : "self-center mt-3 hidden"
+            }
+          ></ArrowCircleUpIcon>
+          <div
+            className={
+              clicked
+                ? "text-center text-l mt-3 pl-5 pr-5 pb-5 "
+                : "text-center text-l mt-3 pl-5 pr-5 pb-5 hidden"
+            }
+          >
             {props.SecondText}
           </div>
         </div>
