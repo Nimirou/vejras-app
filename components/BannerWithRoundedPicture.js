@@ -6,7 +6,7 @@ import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
 function BannerWithRoundedPicture(props) {
   const [clicked, setClicked] = useState(false);
   return (
-    <div className="group" onClick={() => setClicked(!clicked)}>
+    <div className="" onClick={() => setClicked(!clicked)}>
       <div className="-mb-16 text-center pt-8  ">
         <Image
           src={props.AvatarPicture}
@@ -15,7 +15,7 @@ function BannerWithRoundedPicture(props) {
           width={200}
         />
       </div>
-      <div className=" group-hover:border-main-green group-hover:border-4 border-4 border-transparent relative sm:w-96 drop-shadow-xl rounded-3xl ml-auto mr-auto sm:ml-2 sm:mr-2  bg-[#201E1E]">
+      <div className="group hover:border-main-green first-line:hover:border-4 border-4 border-transparent relative sm:w-96 drop-shadow-xl rounded-3xl ml-auto mr-auto sm:ml-2 sm:mr-2  bg-[#201E1E]">
         <div className="text-center pt-5 font-bold text-3xl">
           {props.MainTitle}
         </div>
