@@ -6,13 +6,13 @@ function SmallBanner() {
         MainTitle="JEDNODUŠE"
         MainText="Způsoby obrábění máme individuálně připravené a promyšlené."
         AvatarPicture="/Jednoduse.png"
-        SecondText="Naše postupy vám ukážeme přímo u nás na výrobně kde se můžeme potkat a probrat další kroky spolupráce"
+        SecondText="S našimy postupy je možné se seznámít přímo u nás ve výrobě. Společně projdeme co a jak tvoříme ať víte do čeho s námi jdete."
       ></BannerWithRoundedPicture>
       <BannerWithRoundedPicture
         MainTitle="PREZENTACE"
-        MainText="Všechny nové výrobky Vám předem prezentujeme."
+        MainText="Všechny nové výrobky Vám před kompletní výrobou odprezentujeme a doladíme úpravy"
         AvatarPicture="/Prezentace.png"
-        SecondText="Není problém domluvit idividuální termín ukázky všech našich výrobků"
+        SecondText="Není problém domluvit idividuální termín ukázky všech našich výrobků."
       ></BannerWithRoundedPicture>
       <BannerWithRoundedPicture
         MainTitle="PO CELÉ ČR"
